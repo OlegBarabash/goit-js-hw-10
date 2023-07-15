@@ -1,0 +1,13 @@
+.is-hidden {
+  visibility: hidden;
+  display: none;
+}
+
+.cat-info {
+  display: flex;
+  margin-top: 10px;
+}
+
+.cat-text-info {
+  margin-left: 15px;
+}
