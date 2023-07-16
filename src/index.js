@@ -25,6 +25,7 @@ fetchBreeds()
 
 function handlerFullCatInfo() {
   loader.classList.remove('is-hidden');
+  error.classList.add('is-hidden');
   fullCatInfo.innerHTML = '';
 
   fetchCatByBreed(select.value)
